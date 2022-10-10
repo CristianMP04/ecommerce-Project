@@ -11,6 +11,11 @@ a {
     text-decoration: none;
     color: #000;
 }
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 /** Header y Navegación **/
 
 .nombre-sitio {
@@ -23,13 +28,21 @@ a {
     color: #037bc0;
 }
 
-.nav-principal {
+.contenedor-navegacion {
     border-top: 1px solid #e1e1e1;
 }
 
-/** Box Model **/
-.sobre-nosotros {
-    background-color: red;
-    width: 200px;
-    padding: 25px;
+.nav-principal {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
 }
+
+.hero {
+    background-image: url(../img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+
