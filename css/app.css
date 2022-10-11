@@ -102,4 +102,23 @@ img {
     gap: 2rem;
 }
 
+/** Bloque Nosotros **/
+.sobre-nosotros {
+    background-image: linear-gradient(to right, transparent 50%, #037bc0 50%, #037bc0 100% ), url(../img/nosotros.jpg);
+    background-position: left center;
+    padding: 10rem 0;
+    margin-top: 2.5rem;
+    background-repeat: no-repeat;
+    background-size: 100%, 120rem;
+}
 
+.sobre-nosotros-grid {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.texto-nosotros {
+    flex-basis: 50%;
+    padding-left: 10rem;
+    color: #fff;
+}
