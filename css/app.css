@@ -255,3 +255,10 @@ img {
     flex-direction: column;
     justify-content: center;
 }
+
+/** Blog **/
+.contenedor-blog {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 4rem;
+}
